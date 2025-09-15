@@ -8,10 +8,19 @@ final int THIRD = 3;
 color pastelBlue = #bde0fe;
 color pastelPink = #ffc8dd;
 
+color magenta = #B30469;
+color orange = #FF941F;
+
+color red = #FF0000;
+color yellow = #E8E509;
+color sewage = #B4AC09;
+color lightYellow = #FFFA96;
+
+
 void setup(){
   size(1000,1000);
   
-  mode = FIRST;
+  mode = INTRO;
 }
 void draw(){
   if (mode == INTRO){

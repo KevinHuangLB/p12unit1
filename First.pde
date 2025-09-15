@@ -2,9 +2,9 @@ void firstClicks() {
   mode = SECOND;
 }
 void numOne() {
+  background(pastelPink);
   int x = 50;
   int y = 50;
-  int count = 0;
   while(y < height){
   while(x < width){
     rightsideUpLT(x,y,1);
@@ -35,6 +35,7 @@ void rightsideUpLT(int x, int y, float s){
   noStroke();
   scale(s);
   
+  fill(pastelBlue);
   triangle(-50,50,-16.67,50,-33.3,21.18);
   triangle(50,50,16.67,50,33.3,21.18);
   triangle(0,-36.6,-16.67,-7.78,16.67,-7.78);
