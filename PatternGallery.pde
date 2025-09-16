@@ -20,7 +20,7 @@ color lightYellow = #FFFA96;
 void setup(){
   size(1000,1000);
   
-  mode = INTRO;
+  mode = THIRD;
 }
 void draw(){
   if (mode == INTRO){
