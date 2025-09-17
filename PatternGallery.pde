@@ -15,7 +15,7 @@ color red = #FF0000;
 color yellow = #E8E509;
 color sewage = #B4AC09;
 color lightYellow = #FFFA96;
-
+color blue = #03045e;
 
 void setup(){
   size(1000,1000);
